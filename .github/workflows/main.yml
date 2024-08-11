@@ -14,6 +14,7 @@ jobs:
               with:
                   host: ${{ secrets.HOST_DEV }}
                   username: ${{ secrets.USER_DEV }}
+                  password: ${{ secrets.FTP_PASSWORD }}
                   key: ${{ secrets.SSH_DEV }}
                   script: |
                       cd var/www/sicorskiy.site/
